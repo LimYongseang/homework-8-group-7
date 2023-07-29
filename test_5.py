@@ -1,4 +1,3 @@
-import pytest
 from exercise_5 import reverse_ascending
 
 # test normal
