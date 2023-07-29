@@ -3,12 +3,11 @@ def chunking_by(numbers, chunck):
     temp = []
     time = 0
     if not numbers:
-        return result  
+        return result
     elif chunck == 0 or type(chunck) != int:
         return numbers
     else:
         for number in numbers:
-            
             temp.append(number)
             time += 1
 
