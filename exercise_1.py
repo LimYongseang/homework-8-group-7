@@ -10,4 +10,3 @@ def replace_last(numbers):
         else:
             result.append(number)
     return result
-
