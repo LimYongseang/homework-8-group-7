@@ -15,7 +15,7 @@ def reverse_ascending(numbers):
     
 
 
-print(reverse_ascending([5,4,3,2,1,0]))
+print(reverse_ascending([]))
 
 # list(reverse_ascending([5, 4, 3, 2, 1])) == [5, 4, 3, 2, 1]
 # list(reverse_ascending([1, 2, 3, 4, 5])) == [5, 4, 3, 2, 1]
