@@ -1,2 +1,3 @@
 def remove_all_after(numbers, n):
     ...
+    return numbers[numbers.index(0):numbers.index(n)+1]
