@@ -1,7 +1,7 @@
 from exercise_4 import chunking_by
 
 
-# test normal
+# test normal output
 def test_chunking_by():
     assert chunking_by([5, 4, 7, 3, 4, 5, 4], 3) == [[5, 4, 7], [3, 4, 5], [4]]
     assert chunking_by([3, 4, 5], 1) == [[3], [4], [5]]
