@@ -1,4 +1,4 @@
-
+from exercise_5 import reverse_ascending
 
 # test normal output
 def test_reverse_ascending():
