@@ -7,4 +7,4 @@ for file in files:
 
 # files2 =  ["exercise_1.py","exercise_2.py","exercise_3.py","exercise_4.py","exercise_5.py"]
 # for file in files2:
-#     subprocess.run(["black", file])
+#     subprocess.run(["black", file] )

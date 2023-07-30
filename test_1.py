@@ -1,7 +1,7 @@
 from exercise_1 import replace_last
 
 
-# test normal
+# test normal output
 def test_replace_last():
     assert replace_last([2, 3, 4, 1]) == [1, 2, 3, 4]
     assert replace_last([1, 2, 3, 4]) == [4, 1, 2, 3]
