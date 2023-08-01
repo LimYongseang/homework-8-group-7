@@ -2,18 +2,19 @@ def replace_last(numbers):
     ...
     if numbers == []:
         return []
-    else: 
+    else:
         new = []
         last_digit = numbers[-1]
         new.append(last_digit)
-        for num in numbers[0:len(numbers)-1]:
+        for num in numbers[0 : len(numbers) - 1]:
             new.append(num)
         return new
 
-#psuedo
-#create a new list
-#input last number first 
-#input everthing else afterward in normal order
+
+# psuedo
+# create a new list
+# input last number first
+# input everthing else afterward in normal order
 
 ## test
 # numbers = [1, 2, 3, 4, 8]
