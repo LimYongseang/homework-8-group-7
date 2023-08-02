@@ -1,12 +1,12 @@
 def reverse_ascending(numbers):
-    for index, number in enumerate(numbers):
-        prev_index = 0
-        curren = number
-        prev_index = index - 1
+    result = []
+    start = 0
+    for i in range(1, len(numbers)):
+        if numbers[i] <= numbers[i - 1]:
+            result.extend(numbers[start:i][::-1])
+            start = i
+    result.extend(numbers[start:][::-1])
+    return result
+print(reverse_ascending([1, 2, 3, 4, 2, 1, 2, 3, 4, 5, 2]) )
 
-        while prev_index >= 0 and numbers[prev_index] < curren:
-            numbers[prev_index + 1] = numbers[prev_index]
-            numbers[prev_index] = curren
-            prev_index -= 1
 
-    return numbers
