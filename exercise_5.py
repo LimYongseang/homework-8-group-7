@@ -7,6 +7,3 @@ def reverse_ascending(numbers):
             start = i
     result.extend(numbers[start:][::-1])
     return result
-print(reverse_ascending([1, 2, 3, 4, 2, 1, 2, 3, 4, 5, 2]) )
-
-
